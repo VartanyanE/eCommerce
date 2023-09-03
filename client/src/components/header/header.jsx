@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import React from 'react';
-// import CartIcon from '../cart-icon/cart-icon';
+import CartIcon from '../cart-icon/cart-icon';
 // import { auth } from '../../firebase';
 // import { UserContext } from '../../context/user-context'
 import './header.styles.scss';
@@ -47,7 +47,7 @@ const Header = () => {
           </li>
         } */}
       </ul>
-      {/* <CartIcon /> */}
+      <CartIcon />
     </nav>
   );
 }
